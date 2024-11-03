@@ -115,7 +115,8 @@ body {
 	position: relative;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
-	background: var(--theme-background) url(/assets/images/bg.svg) no-repeat;
+	background: rgb(235,209,220);
+	background: linear-gradient(0deg, rgba(235,209,220,1) 0%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
 	background-size: cover;
 	background-position: center
 }
