@@ -74,6 +74,8 @@ select {
 }
 
 :root {
+	--brand-color: #ebd1dc;
+	--brand-color-text: #917d85;
 	--theme-primary: hsl(0, 0%, 5%);
 	--theme-on-primary: hsl(0, 0%, 90%);
 	--theme-primary--hover: #000;
@@ -106,7 +108,8 @@ html {
 
 body {
 	margin: 0 auto;
-	color: var(--theme-on-background);
+	/* color: var(--theme-on-background); */
+	color: var(--brand-color-text);
 	font-size: var(--step-0);
 	font-family: var(--font-family-body);
 	font-weight: 400;
@@ -115,8 +118,8 @@ body {
 	position: relative;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
-	background: rgb(235,209,220);
-	background: linear-gradient(0deg, rgba(235,209,220,1) 0%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+	background: var(--brand-color);
+	background: linear-gradient(0deg, var(--brand-color) 0%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
 	background-size: cover;
 	background-position: center
 }
@@ -149,7 +152,9 @@ h3 {
 	font-size: var(--step-2);
 	font-family: var(--font-family-heading);
 	font-weight: 500;
-	line-height: 1.2
+	line-height: 1.2;
+	color:#616161;
+	font-variant: normal;
 }
 
 h4 {
