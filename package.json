@@ -1,0 +1,22 @@
+{
+  "name": "laflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariiash/laflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariiash/laflow/issues"
+  },
+  "homepage": "https://github.com/mariiash/laflow#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
