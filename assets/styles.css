@@ -48,7 +48,7 @@ a:not([class]) {
 img,
 picture {
 	max-width: 100%;
-	display: block
+	display: block;
 }
 
 input,
@@ -258,4 +258,8 @@ input:where(.astro-6XV744NB):focus {
 	transition: background-color .2s ease, border-color .2s ease;
 	border-radius: 2rem;
 	white-space: nowrap
+}
+
+.logo {
+	height: 4rem;
 }
